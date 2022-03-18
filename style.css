@@ -20,6 +20,7 @@ body {
 
 #menu-icon { display: none !important; }
 
+/* .show {display: inline-block;} */
 
 /* Código que se ejecutará sólo en pantallas más pequeñas que 1024px */
 @media screen and (max-width: 1024px) {
@@ -34,5 +35,7 @@ body {
   }
 
   .menu li:not(:first-child) { display: none; }
+
+  .show {display: block !important;}
 
 }
