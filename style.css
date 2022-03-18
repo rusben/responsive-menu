@@ -18,7 +18,7 @@ body {
   list-style-type: none;
 }
 
-.menu-icon { display: none !important; }
+#menu-icon { display: none !important; }
 
 
 /* Código que se ejecutará sólo en pantallas más pequeñas que 1024px */
@@ -28,7 +28,7 @@ body {
     display: block;
   }
 
-  .menu-icon {
+  #menu-icon {
     display: inline !important;
     float:  right;
   }
